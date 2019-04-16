@@ -1,4 +1,4 @@
-node('docker-slave-general') { 
+node('master') { 
   def DockerImage = "webserver:v1.0"
   
   stage('Pre') { // Run pre-build steps
